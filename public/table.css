@@ -1,0 +1,48 @@
+table {
+  margin: auto;
+  margin-top: 100px;
+  min-width: 70%;
+  box-shadow: -1px 12px 12px -6px rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+}
+
+table,
+td,
+th {
+  padding: 6px;
+  /* border: 1px solid lightgray; */
+  border-collapse: collapse;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.topic {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+td {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+th {
+  background-color: rgb(2, 2, 2);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+tr:nth-child(odd) {
+  background-color: plum;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #2e0707;
+  color: blueviolet;
+  font-family: "Poppins", sans-serif;
+}
